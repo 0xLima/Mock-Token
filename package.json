@@ -1,0 +1,34 @@
+{
+  "name": "mock-token",
+  "version": "0.0.1",
+  "main": "hardhat.config.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "verify": "npx hardhat verify --contract"
+  },
+  "keywords": [],
+  "author": "0xLima",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.8.3",
+    "@types/node": "^18.0.6",
+    "chai": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.7"
+  },
+  "description": "Mock Token is Mocked ERC20 Token on BSC Testnet Network for Zapster Ecosystem --",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapsterfinance/mock-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zapsterfinance/mock-token/issues"
+  },
+  "homepage": "https://github.com/zapsterfinance/mock-token#readme"
+}
